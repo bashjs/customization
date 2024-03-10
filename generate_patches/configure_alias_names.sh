@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #   It MUST be run using source in order to configure alias
-export local_patch_path="/Users/marion/dev/git_local/Code/customization"
+export local_patch_path="/Users/eugenebashmakov/projects/loop.in.ua/customization"
 
 alias reset_workspace="${local_patch_path}/generate_patches/reset_workspace.sh"
 alias generate_main="${local_patch_path}/generate_patches/main.sh"

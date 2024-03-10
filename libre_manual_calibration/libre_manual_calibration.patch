@@ -1,0 +1,55 @@
+diff --git a/LibreTransmitter b/LibreTransmitter
+--- a/LibreTransmitter
++++ b/LibreTransmitter
+@@ -1 +1 @@
+-Subproject commit cb085301d38a922dfc2b8fb4c8179a14e391bf33
++Subproject commit cb085301d38a922dfc2b8fb4c8179a14e391bf33-dirty
+diff --git a/NightscoutService b/NightscoutService
+index 2b7e4f8..7021c9b 160000
+--- a/NightscoutService
++++ b/NightscoutService
+@@ -1 +1 @@
+-Subproject commit 2b7e4f855c3169bf05c6c6b9293f0127bc1b6de6
++Subproject commit 7021c9bca59eeaeea517867971c8f7d1443b24ec-dirty
+diff --git a/OmniBLE b/OmniBLE
+index bd3cfdc..bfe2795 160000
+--- a/OmniBLE
++++ b/OmniBLE
+@@ -1 +1 @@
+-Subproject commit bd3cfdc4799a659c81e10fba49701ba2e32e8883
++Subproject commit bfe2795cb4933c5ecc6f6d8040aefc4b281563de-dirty
+diff --git a/OmniKit b/OmniKit
+index f93cff6..a78fdcd 160000
+--- a/OmniKit
++++ b/OmniKit
+@@ -1 +1 @@
+-Subproject commit f93cff6796cb4348d60baa1c10a50c5f4a5b0472
++Subproject commit a78fdcd96deb22638f8a3451468b0b18b70fd1d9-dirty
+diff --git a/RileyLinkKit b/RileyLinkKit
+index aa92023..a0e419d 160000
+--- a/RileyLinkKit
++++ b/RileyLinkKit
+@@ -1 +1 @@
+-Subproject commit aa920236a2f4d6b01dd85426dc515877879b2000
++Subproject commit a0e419da314d0ad42b41ccb04af73cd1fbf41257-dirty
+diff --git a/TidepoolService b/TidepoolService
+index 6c746b0..f7d4670 160000
+--- a/TidepoolService
++++ b/TidepoolService
+@@ -1 +1 @@
+-Subproject commit 6c746b0aa11c788c9c27362a1e95bfc631d328a2
++Subproject commit f7d46701f24356e8ff387087cb4f687268ae0f3d-dirty
+diff --git a/TrueTime.swift b/TrueTime.swift
+index d140b0f..53c14e2 160000
+--- a/TrueTime.swift
++++ b/TrueTime.swift
+@@ -1 +1 @@
+-Subproject commit d140b0f08ab9fbcaeaf6e4eb7a3da3e3d05bae3c
++Subproject commit 53c14e26218292a04012c5b43cfda1f4e49ae675-dirty
+diff --git a/dexcom-share-client-swift b/dexcom-share-client-swift
+index c6c5309..0f93513 160000
+--- a/dexcom-share-client-swift
++++ b/dexcom-share-client-swift
+@@ -1 +1 @@
+-Subproject commit c6c5309ebdc76aa7aa4a88941fb4a6e0d07cce8d
++Subproject commit 0f93513d5c306342c4d3ce85f5ab062da1e1b145-dirty
