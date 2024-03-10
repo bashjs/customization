@@ -8,8 +8,8 @@ branch="dev"
 # this requires that Loop already have remotes configures
 # first arg goes with dosing-strategy-linear-ramp branch (i.e., marionbarker)
 # second arg goes with prep_irc and combined_1988_2008 (i.e., loopandlearn)
-repo1="marionbarker"
-repo2="loopandlearn"
+# repo1="marionbarker"
+# repo2="loopandlearn"
 
 function git_cleanup_submodule() {
   local submodule_path=$1
@@ -33,9 +33,9 @@ function git_reset() {
     git_cleanup_submodule LoopKit
 
     # Fetch the branches
-    cd Loop
-    git fetch $repo1
-    git fetch $repo2
+    # cd Loop
+    # git fetch $repo1
+    # git fetch $repo2
     cd ..
 }
 
