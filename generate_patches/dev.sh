@@ -40,10 +40,7 @@ function git_reset() {
 }
 
 thisFolder=$(pwd)
-if [[ thisFolder -ne "LoopWorkspace" ]]; then
-    cd /Users/eugenebashmakov/projects/loop.in.ua/LoopWorkspace
-    path_to_use="$path_to_customization"
-fi
+path_to_use="$path_to_customization"
 git_reset
 
 commit() {
