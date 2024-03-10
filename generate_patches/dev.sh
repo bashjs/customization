@@ -2,8 +2,7 @@
 #set -x
 set -e
 
-path_marion="/Users/marion/dev/git_local/Code/customization"
-path_jonas="../.."
+path_to_customization="/Users/eugenebashmakov/projects/loop.in.ua/customization"
 
 branch="dev"
 # this requires that Loop already have remotes configures
@@ -40,13 +39,10 @@ function git_reset() {
     cd ..
 }
 
-# marion starts in LoopWorkspace
 thisFolder=$(pwd)
 if [[ thisFolder -ne "LoopWorkspace" ]]; then
-    cd Loop_dev/LoopWorkspace
-    path_to_use="$path_jonas"
-else
-    path_to_use="$path_marion"
+    cd /Users/eugenebashmakov/projects/loop.in.ua/LoopWorkspace
+    path_to_use="$path_to_customization"
 fi
 git_reset
 
